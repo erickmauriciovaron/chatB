@@ -109,7 +109,7 @@ const express = require('express');
 const app = express();
 
 // ⬇️ PUERTO DE RAILWAY O 3000 LOCAL
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // ⬇️ RUTA BÁSICA PARA QUE RAILWAY VEA QUE FUNCIONA
 app.get('/', (req, res) => {
