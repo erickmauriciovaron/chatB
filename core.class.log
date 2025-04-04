@@ -1,12 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '573216246367@s.whatsapp.net',
     fromMe: false,
-    id: 'BA95A87E6E382734AC0364C97B028873',
+    id: 'DCE5D0FEA69122237758B6E074766EEF',
     participant: undefined
   },
-  messageTimestamp: 1743795845,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798509,
+  pushName: 'Sebastián Muñoz Cardozo',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
@@ -17,11 +17,11 @@
     }
   },
   body: 'Hola',
-  from: '573133010161'
+  from: '573216246367'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d773bf65-c025-4f42-9715-3686c971f229',
-  keyword: 'key_66adc7f9-5c7d-48ed-a72a-ae9681f39eea',
+  ref: 'ans_a13360c5-1335-423f-89b2-5e37ee6bc26a',
+  keyword: 'key_470cf625-ef49-4425-a729-2839917bd1fe',
   answer: 'Hesego ingenieria esta configurando el *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
   options: {
     media: 'https://i.pinimg.com/236x/f9/5c/03/f95c03ba4333a7a25629396014c37271.jpg',
@@ -35,17 +35,17 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '7ebce0626176870e09f09fd7c1930335'
+  refSerialize: 'c8cb505cdf3e3ec946edac37500a6611'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '573216246367@s.whatsapp.net',
     fromMe: false,
-    id: '3B976125B0E969A7B159B9868281CF2D',
+    id: '94E4F3EAF439819EF0BC74C81BFF0004',
     participant: undefined
   },
-  messageTimestamp: 1743795850,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798522,
+  pushName: 'Sebastián Muñoz Cardozo',
   broadcast: false,
   message: Message {
     conversation: 'Menu',
@@ -56,11 +56,11 @@
     }
   },
   body: 'Menu',
-  from: '573133010161'
+  from: '573216246367'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
-  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
+  ref: 'ans_df3080a8-eaf3-45d6-8558-99970f635f7c',
+  keyword: 'key_388795c6-395c-4772-93b3-f9ce2065096b',
   answer: 'Elegi alguna de estas opciones \r\n' +
     '\r\n' +
     '1 - Menu\r\n' +
@@ -80,149 +80,17 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'ebae340080b7350c9953269890cac824'
+  refSerialize: 'fb04dd5e237e16eb3306cb73efa65fcc'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '573216246367@s.whatsapp.net',
     fromMe: false,
-    id: 'DCB607FD6B0BD83C3E8FF55D1A957DD0',
+    id: 'BB20B3BB8D52DE44878092B6E24C9E2C',
     participant: undefined
   },
-  messageTimestamp: 1743795859,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '573133010161'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: 'B284D86BEDCE9D7E3FA6AD84AEFF7B23',
-    participant: undefined
-  },
-  messageTimestamp: 1743795868,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '573133010161'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
-  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
-  answer: 'Elegi alguna de estas opciones \r\n' +
-    '\r\n' +
-    '1 - Menu\r\n' +
-    '2 - Reservar visita\r\n' +
-    '3 - Hacer consultas\r\n' +
-    '\r\n' +
-    '0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ebae340080b7350c9953269890cac824'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: 'B918701F50AE1EC98297C887390321E6',
-    participant: undefined
-  },
-  messageTimestamp: 1743795871,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '2',
-  from: '573133010161'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: '8B536DB28C270C8526E91518B433134E',
-    participant: undefined
-  },
-  messageTimestamp: 1743795876,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '573133010161'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
-  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
-  answer: 'Elegi alguna de estas opciones \r\n' +
-    '\r\n' +
-    '1 - Menu\r\n' +
-    '2 - Reservar visita\r\n' +
-    '3 - Hacer consultas\r\n' +
-    '\r\n' +
-    '0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ebae340080b7350c9953269890cac824'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: 'A993AF2422048C631196AE1240B1820C',
-    participant: undefined
-  },
-  messageTimestamp: 1743795882,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798537,
+  pushName: 'Sebastián Muñoz Cardozo',
   broadcast: false,
   message: Message {
     conversation: '3',
@@ -233,38 +101,77 @@
     }
   },
   body: '3',
-  from: '573133010161'
+  from: '573216246367'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '573216246367@s.whatsapp.net',
     fromMe: false,
-    id: '833F8E6314B31B00FA0691B2311528DA',
+    id: '47050C045BE423F6F9E7942D18499BF4',
     participant: undefined
   },
-  messageTimestamp: 1743795892,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798546,
+  pushName: 'Sebastián Muñoz Cardozo',
   broadcast: false,
   message: Message {
-    conversation: 'Quiero reportar una pqr',
+    conversation: 'Cuánto es 100+100',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Quiero reportar una pqr',
-  from: '573133010161'
+  body: 'Cuánto es 100+100',
+  from: '573216246367'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '573216246367@s.whatsapp.net',
     fromMe: false,
-    id: 'C3DD096861D3F69FE0BF05E7AAEC4D71',
+    id: '6DEE727F29D673C34BE366BA8B4CAEF3',
     participant: undefined
   },
-  messageTimestamp: 1743795898,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798566,
+  pushName: 'Sebastián Muñoz Cardozo',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573216246367'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a13360c5-1335-423f-89b2-5e37ee6bc26a',
+  keyword: 'key_470cf625-ef49-4425-a729-2839917bd1fe',
+  answer: 'Hesego ingenieria esta configurando el *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
+  options: {
+    media: 'https://i.pinimg.com/236x/f9/5c/03/f95c03ba4333a7a25629396014c37271.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 100,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c8cb505cdf3e3ec946edac37500a6611'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573216246367@s.whatsapp.net',
+    fromMe: false,
+    id: '67554841F50B76992D5870365993FE0D',
+    participant: undefined
+  },
+  messageTimestamp: 1743798575,
+  pushName: 'Sebastián Muñoz Cardozo',
   broadcast: false,
   message: Message {
     conversation: 'Menu',
@@ -275,11 +182,11 @@
     }
   },
   body: 'Menu',
-  from: '573133010161'
+  from: '573216246367'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
-  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
+  ref: 'ans_df3080a8-eaf3-45d6-8558-99970f635f7c',
+  keyword: 'key_388795c6-395c-4772-93b3-f9ce2065096b',
   answer: 'Elegi alguna de estas opciones \r\n' +
     '\r\n' +
     '1 - Menu\r\n' +
@@ -299,134 +206,104 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'ebae340080b7350c9953269890cac824'
+  refSerialize: 'fb04dd5e237e16eb3306cb73efa65fcc'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '573216246367@s.whatsapp.net',
     fromMe: false,
-    id: '01625B3B36F0F40B2DCBDC90E81FC316',
+    id: '6D9E230CC671E4A5CEB047F2D38C7FCF',
     participant: undefined
   },
-  messageTimestamp: 1743795903,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798579,
+  pushName: 'Sebastián Muñoz Cardozo',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Hola',
-  from: '573133010161'
+  body: '2',
+  from: '573216246367'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573133010161@s.whatsapp.net',
+    remoteJid: '5215554063156@s.whatsapp.net',
     fromMe: false,
-    id: 'AA1545FE1C22720930CA040032AF675F',
+    id: '3A493FB930AE6D894FA1',
     participant: undefined
   },
-  messageTimestamp: 1743795908,
-  pushName: 'Luz Marina Lopez Erazo',
+  messageTimestamp: 1743798587,
+  pushName: 'Danny',
   broadcast: false,
   message: Message {
-    conversation: 'Jjja',
+    conversation: 'Me quedaré con ese',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Jjja',
-  from: '573133010161'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: '4C1F9F1F2A9B816C76CE38D9269C7396',
-    participant: undefined
-  },
-  messageTimestamp: 1743795914,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: '7',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '7',
-  from: '573133010161'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: '68D18D2F72D9F1CAE7013F9060690003',
-    participant: undefined
-  },
-  messageTimestamp: 1743795918,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: '0',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '0',
-  from: '573133010161'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573133010161@s.whatsapp.net',
-    fromMe: false,
-    id: '7CC9B7B7FF1C7415A1AB3347DCFF7D76',
-    participant: undefined
-  },
-  messageTimestamp: 1743795927,
-  pushName: 'Luz Marina Lopez Erazo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '573133010161'
+  body: 'Me quedaré con ese',
+  from: '5215554063156'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
-  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
-  answer: 'Elegi alguna de estas opciones \r\n' +
-    '\r\n' +
-    '1 - Menu\r\n' +
-    '2 - Reservar visita\r\n' +
-    '3 - Hacer consultas\r\n' +
-    '\r\n' +
-    '0 - Salir',
+  ref: 'ans_a13360c5-1335-423f-89b2-5e37ee6bc26a',
+  keyword: 'key_470cf625-ef49-4425-a729-2839917bd1fe',
+  answer: 'Hesego ingenieria esta configurando el *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
   options: {
-    media: null,
+    media: 'https://i.pinimg.com/236x/f9/5c/03/f95c03ba4333a7a25629396014c37271.jpg',
     buttons: [],
-    capture: true,
+    capture: false,
     child: null,
-    delay: 0,
+    delay: 100,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: true
   },
-  refSerialize: 'ebae340080b7350c9953269890cac824'
+  refSerialize: 'c8cb505cdf3e3ec946edac37500a6611'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215554063156@s.whatsapp.net',
+    fromMe: false,
+    id: '3A64B9B334E9F661EC8E',
+    participant: undefined
+  },
+  messageTimestamp: 1743798626,
+  pushName: 'Danny',
+  broadcast: false,
+  message: Message {
+    conversation: 'Eso lo estás haciendo tú ?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Eso lo estás haciendo tú ?',
+  from: '5215554063156'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a13360c5-1335-423f-89b2-5e37ee6bc26a',
+  keyword: 'key_470cf625-ef49-4425-a729-2839917bd1fe',
+  answer: 'Hesego ingenieria esta configurando el *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
+  options: {
+    media: 'https://i.pinimg.com/236x/f9/5c/03/f95c03ba4333a7a25629396014c37271.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 100,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c8cb505cdf3e3ec946edac37500a6611'
 }
