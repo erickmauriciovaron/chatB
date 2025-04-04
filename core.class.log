@@ -1,0 +1,105 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '5DAB4CAA47E98956D6B3DB7E0DAE1959',
+    participant: undefined
+  },
+  messageTimestamp: 1743784005,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '573133010161'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a4c198f-14ed-422a-86ab-686a662ad66a',
+  keyword: 'key_c250bbb3-2e24-44dc-b6b5-543941d8b809',
+  answer: 'Estoy configurando mi *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 100,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7e070f854501591d2d4f2c5ad7c79b71'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '1056F29185A287E3A82A28B25EBD8265',
+    participant: undefined
+  },
+  messageTimestamp: 1743784012,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Menu',
+  from: '573133010161'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9b885e21-88dc-4b3e-a289-9d163add31d0',
+  keyword: 'key_12843fc2-81fd-4b82-9e6a-48782174388b',
+  answer: 'Elegi alguna de estas opciones \r\n' +
+    '\r\n' +
+    'Opcion 1 - Menu\r\n' +
+    'Opcion 2 - Reservar visita\r\n' +
+    'Opcion 3 - Hacer consultas\r\n' +
+    '\r\n' +
+    'Opcion 0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'af68b50f07091291b2dd1a105e859345'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: 'F178F3A037123F99786317979D403F43',
+    participant: undefined
+  },
+  messageTimestamp: 1743784015,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573133010161'
+}
