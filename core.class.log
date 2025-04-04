@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573133010161@s.whatsapp.net',
     fromMe: false,
-    id: '5DAB4CAA47E98956D6B3DB7E0DAE1959',
+    id: 'BA95A87E6E382734AC0364C97B028873',
     participant: undefined
   },
-  messageTimestamp: 1743784005,
+  messageTimestamp: 1743795845,
   pushName: 'Luz Marina Lopez Erazo',
   broadcast: false,
   message: Message {
@@ -20,11 +20,11 @@
   from: '573133010161'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1a4c198f-14ed-422a-86ab-686a662ad66a',
-  keyword: 'key_c250bbb3-2e24-44dc-b6b5-543941d8b809',
-  answer: 'Estoy configurando mi *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
+  ref: 'ans_d773bf65-c025-4f42-9715-3686c971f229',
+  keyword: 'key_66adc7f9-5c7d-48ed-a72a-ae9681f39eea',
+  answer: 'Hesego ingenieria esta configurando el *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento',
   options: {
-    media: null,
+    media: 'https://i.pinimg.com/236x/f9/5c/03/f95c03ba4333a7a25629396014c37271.jpg',
     buttons: [],
     capture: false,
     child: null,
@@ -35,16 +35,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '7e070f854501591d2d4f2c5ad7c79b71'
+  refSerialize: '7ebce0626176870e09f09fd7c1930335'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573133010161@s.whatsapp.net',
     fromMe: false,
-    id: '1056F29185A287E3A82A28B25EBD8265',
+    id: '3B976125B0E969A7B159B9868281CF2D',
     participant: undefined
   },
-  messageTimestamp: 1743784012,
+  messageTimestamp: 1743795850,
   pushName: 'Luz Marina Lopez Erazo',
   broadcast: false,
   message: Message {
@@ -59,15 +59,15 @@
   from: '573133010161'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9b885e21-88dc-4b3e-a289-9d163add31d0',
-  keyword: 'key_12843fc2-81fd-4b82-9e6a-48782174388b',
+  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
+  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
   answer: 'Elegi alguna de estas opciones \r\n' +
     '\r\n' +
-    'Opcion 1 - Menu\r\n' +
-    'Opcion 2 - Reservar visita\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
+    '1 - Menu\r\n' +
+    '2 - Reservar visita\r\n' +
+    '3 - Hacer consultas\r\n' +
     '\r\n' +
-    'Opcion 0 - Salir',
+    '0 - Salir',
   options: {
     media: null,
     buttons: [],
@@ -80,16 +80,82 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'af68b50f07091291b2dd1a105e859345'
+  refSerialize: 'ebae340080b7350c9953269890cac824'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573133010161@s.whatsapp.net',
     fromMe: false,
-    id: 'F178F3A037123F99786317979D403F43',
+    id: 'DCB607FD6B0BD83C3E8FF55D1A957DD0',
     participant: undefined
   },
-  messageTimestamp: 1743784015,
+  messageTimestamp: 1743795859,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: 'B284D86BEDCE9D7E3FA6AD84AEFF7B23',
+    participant: undefined
+  },
+  messageTimestamp: 1743795868,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Menu',
+  from: '573133010161'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
+  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
+  answer: 'Elegi alguna de estas opciones \r\n' +
+    '\r\n' +
+    '1 - Menu\r\n' +
+    '2 - Reservar visita\r\n' +
+    '3 - Hacer consultas\r\n' +
+    '\r\n' +
+    '0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ebae340080b7350c9953269890cac824'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: 'B918701F50AE1EC98297C887390321E6',
+    participant: undefined
+  },
+  messageTimestamp: 1743795871,
   pushName: 'Luz Marina Lopez Erazo',
   broadcast: false,
   message: Message {
@@ -102,4 +168,265 @@
   },
   body: '2',
   from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '8B536DB28C270C8526E91518B433134E',
+    participant: undefined
+  },
+  messageTimestamp: 1743795876,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Menu',
+  from: '573133010161'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
+  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
+  answer: 'Elegi alguna de estas opciones \r\n' +
+    '\r\n' +
+    '1 - Menu\r\n' +
+    '2 - Reservar visita\r\n' +
+    '3 - Hacer consultas\r\n' +
+    '\r\n' +
+    '0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ebae340080b7350c9953269890cac824'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: 'A993AF2422048C631196AE1240B1820C',
+    participant: undefined
+  },
+  messageTimestamp: 1743795882,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '3',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '833F8E6314B31B00FA0691B2311528DA',
+    participant: undefined
+  },
+  messageTimestamp: 1743795892,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Quiero reportar una pqr',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Quiero reportar una pqr',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: 'C3DD096861D3F69FE0BF05E7AAEC4D71',
+    participant: undefined
+  },
+  messageTimestamp: 1743795898,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Menu',
+  from: '573133010161'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
+  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
+  answer: 'Elegi alguna de estas opciones \r\n' +
+    '\r\n' +
+    '1 - Menu\r\n' +
+    '2 - Reservar visita\r\n' +
+    '3 - Hacer consultas\r\n' +
+    '\r\n' +
+    '0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ebae340080b7350c9953269890cac824'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '01625B3B36F0F40B2DCBDC90E81FC316',
+    participant: undefined
+  },
+  messageTimestamp: 1743795903,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: 'AA1545FE1C22720930CA040032AF675F',
+    participant: undefined
+  },
+  messageTimestamp: 1743795908,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jjja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Jjja',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '4C1F9F1F2A9B816C76CE38D9269C7396',
+    participant: undefined
+  },
+  messageTimestamp: 1743795914,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: '7',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '7',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '68D18D2F72D9F1CAE7013F9060690003',
+    participant: undefined
+  },
+  messageTimestamp: 1743795918,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: '0',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '0',
+  from: '573133010161'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133010161@s.whatsapp.net',
+    fromMe: false,
+    id: '7CC9B7B7FF1C7415A1AB3347DCFF7D76',
+    participant: undefined
+  },
+  messageTimestamp: 1743795927,
+  pushName: 'Luz Marina Lopez Erazo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Menu',
+  from: '573133010161'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7467e842-9aaa-4038-bec4-ae53dcd01514',
+  keyword: 'key_a091a5f5-dfa3-43d7-88cd-05f3dc6d8c1d',
+  answer: 'Elegi alguna de estas opciones \r\n' +
+    '\r\n' +
+    '1 - Menu\r\n' +
+    '2 - Reservar visita\r\n' +
+    '3 - Hacer consultas\r\n' +
+    '\r\n' +
+    '0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ebae340080b7350c9953269890cac824'
 }

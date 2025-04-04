@@ -25,14 +25,14 @@ const flowVoice = addKeyword(EVENTS.VOICE_NOTE).addAnswer("esta es una nota de v
 })
 
 const flowMenurest = addKeyword(EVENTS.ACTION)
-    .addAnswer('Este es el *menu*',{
+    .addAnswer('Si quieres regresar al menu de opciones escribe *Menu*',{
         media: "https://i.pinimg.com/474x/a4/0b/31/a40b31bd7dd2b93fc548515e4e079179.jpg"
     })
     
 
 const flowReservar = addKeyword(EVENTS.ACTION)
     .addAnswer('aqui puedes reservar: https://hesegoingenieria.com/')
-    
+    .addAnswer('Si quieres regresar al menu de opciones escribe *Menu*')
     
 const flowConsultas = addKeyword(EVENTS.ACTION)
     .addAnswer('aqui puedes consultar')
@@ -45,8 +45,9 @@ const flowConsultas = addKeyword(EVENTS.ACTION)
     
     
 const flowWelcome = addKeyword(EVENTS.WELCOME)  
-    .addAnswer("Estoy configurando mi *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento", {
+    .addAnswer("Hesego ingenieria esta configurando el *ChatBot*, si quieres ver como esta quedando escribe *Menu* y explora lo que hay en el momento", {
         delay: 100,
+        media: "https://i.pinimg.com/236x/f9/5c/03/f95c03ba4333a7a25629396014c37271.jpg"
     },
 
 async (ctx, ctxFn) => {
@@ -74,7 +75,7 @@ const menuFlow = addKeyword("Menu").addAnswer(
                 case "3":
                     return gotoFlow(flowConsultas);
                 case "0":
-                    return await flowDynamic("Saliendo... Puedes volver a acceder a este menu escribiendo '*Menu*'"
+                    return await flowDynamic("Saliendo... Puedes volver a acceder a este menu escribiendo *Menu*"
 
                     );
                      

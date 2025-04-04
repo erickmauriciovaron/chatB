@@ -1,7 +1,7 @@
 Elegi alguna de estas opciones 
 
-Opcion 1 - Menu
-Opcion 2 - Reservar visita
-Opcion 3 - Hacer consultas
+1 - Menu
+2 - Reservar visita
+3 - Hacer consultas
 
-Opcion 0 - Salir
+0 - Salir
