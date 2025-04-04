@@ -1,22 +1,59 @@
-### CHATBOT Whatsapp (Baileys Provider)
+# ChatBot WhatsApp - Hesego Ingeniería ⚡
 
-<p align="center">
-  <img width="300" src="https://i.imgur.com/Oauef6t.png">
-</p>
+Este proyecto es un chatbot para WhatsApp desarrollado en Node.js usando la librería `@whiskeysockets/baileys`. Integra funcionalidades como:
 
+- Envío y recepción de mensajes automáticos
+- Transcripción de notas de voz usando OpenAI Whisper
+- Respuestas automatizadas con Flujos
+- Conexión a base de datos MongoDB
+- Soporte para comandos como *Menu*, *Consultar*, *Reservar*
 
-**Con esta librería, puedes construir flujos automatizados de conversación de manera agnóstica al proveedor de WhatsApp,** configurar respuestas automatizadas para preguntas frecuentes, recibir y responder mensajes de manera automatizada, y hacer un seguimiento de las interacciones con los clientes.  Además, puedes configurar fácilmente disparadores que te ayudaran a expandir las funcionalidades sin límites. **[Ver documentación](https://bot-whatsapp.netlify.app/)**
+## 🚀 Instalación
 
-
-```
+```bash
+git clone https://github.com/erickmauriciovaron/chatB.git
+cd chatB
 npm install
-npm start
-```
+
+ Tecnologías usadas
+Node.js
+
+Baileys (API no oficial de WhatsApp)
+
+OpenAI Whisper
+
+MongoDB
+
+dotenv
+
+fluent-ffmpeg
+
+📁 Estructura del proyecto
+app.js - Archivo principal
+
+whisper.js - Módulo para convertir voz a texto
+
+mensajes/ - Flujo de mensajes
+
+.env - Claves y URIs
+
+tmp/ - Carpeta temporal de audios
+
+🧑‍💻 Autor
+Erick Mauricio Varón Vergara
+https://github.com/erickmauriciovaron
+
+yaml
+Copiar
+Editar
 
 ---
-## Recursos
-- [📄 Documentación](https://bot-whatsapp.netlify.app/)
-- [🚀 Roadmap](https://github.com/orgs/codigoencasa/projects/1)
-- [💻 Discord](https://link.codigoencasa.com/DISCORD)
-- [👌 Twitter](https://twitter.com/leifermendez)
-- [🎥 Youtube](https://www.youtube.com/watch?v=5lEMCeWEJ8o&list=PL_WGMLcL4jzWPhdhcUyhbFU6bC0oJd2BR)
+
+### 3. Guardar, añadir y hacer push
+
+Desde la terminal en tu proyecto:
+
+```bash
+git add README.md
+git commit -m "Agregar archivo README.md con documentación"
+git push
